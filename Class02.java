@@ -4,7 +4,7 @@ public static void main(String args[]){
  int ans;
 
 if(den==0)
- System.out.println("°£¼Æ¬° 0");
+ System.out.println("é™¤æ•¸ç‚º 0");
 else{
  ans=num/den;
  System.out.println("ans="+ans);
@@ -13,5 +13,5 @@ else{
 }
 }
 
-//°£¼Æ¬° 0
-//end of main() method!!¶ã¶ã¶ã
+//é™¤æ•¸ç‚º 0
+//end of main() method!! 
