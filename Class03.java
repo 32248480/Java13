@@ -6,7 +6,7 @@ try{
  System.out.println("ans="+ans);
 }
 catch(ArithmeticException e){
- System.out.println("°£¼Æ¬° 0");
+ System.out.println("é™¤æ•¸ç‚º 0");
 }
 finally{
  System.out.println("end of main() method!!");
@@ -14,5 +14,5 @@ finally{
 }
 }
 
-//°£¼Æ¬° 0
+//é™¤æ•¸ç‚º 0
 //end of main() method!!	
