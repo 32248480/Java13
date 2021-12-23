@@ -9,7 +9,7 @@ public static void main(String args[]) throws IOException{
  int num;
 
  buf=new BufferedReader(new InputStreamReader(System.in));
- System.out.print("½Ğ¿é¤J¤j©ó 0 ªº¾ã¼Æ:");
+ System.out.print("è«‹è¼¸å…¥å¤§æ–¼ 0 çš„æ•´æ•¸:");
  str=buf.readLine();
  num=Integer.parseInt(str);
  mySqrt(num);
@@ -24,10 +24,10 @@ else{
 }
 }
 catch(ArgumentOutOfBound e){
- System.out.println(n+"¤p©ó 0");
+ System.out.println(n+"å°æ–¼ 0");
 }
 }
 }
 
-//½Ğ¿é¤J¤j©ó 0 ªº¾ã¼Æ:81
+//è«‹è¼¸å…¥å¤§æ–¼ 0 çš„æ•´æ•¸:81
 //sqrt(81)=9.0
