@@ -16,13 +16,13 @@ try{
  triangle(a,b,c);
 }
 catch(NotTriangleException e){
- System.out.println("¤£ºc¦¨¤T¨¤§Î");
+ System.out.println("ä¸æ§‹æˆä¸‰è§’å½¢");
 }
 catch(EquilateralTriangle e){
- System.out.println("³o¬O¥¿¤T¨¤§Î");
+ System.out.println("é€™æ˜¯æ­£ä¸‰è§’å½¢");
 }
 catch(NotEquilateralTriangle e){
- System.out.println("³o¤£¬O¥¿¤T¨¤§Î");
+ System.out.println("é€™ä¸æ˜¯æ­£ä¸‰è§’å½¢");
 }
 }
 public static void triangle(int a,int b,int c) throws NotTriangleException,EquilateralTriangle,NotEquilateralTriangle{
@@ -36,4 +36,4 @@ else
 }
 
 //a=5, b=5, c=5
-//³o¬O¥¿¤T¨¤§Î
+//é€™æ˜¯æ­£ä¸‰è§’å½¢
