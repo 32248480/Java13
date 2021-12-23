@@ -7,10 +7,10 @@ for(int i=0;i<10;i++)
  System.out.println("ans="+num/den[i]);
 }
 catch(Exception e){
- System.out.println("®·®»¨ì¨Ò¥~¤F");
+ System.out.println("æ•æ‰åˆ°ä¾‹å¤–äº†");
 }
 }
 }
 
 //ans=1
-//®·®»¨ì¨Ò¥~¤F
+//æ•æ‰åˆ°ä¾‹å¤–äº†
