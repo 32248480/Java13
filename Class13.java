@@ -16,10 +16,10 @@ else
  System.out.println("string="+str);
 }
 catch(Exception520 e){
- System.out.println("³o¬O¥Ñ¦r¦ê 520 ©Ò¤Þ°_ªº¨Ò¥~");
+ System.out.println("é€™æ˜¯ç”±å­—ä¸² 520 æ‰€å¼•èµ·çš„ä¾‹å¤–");
 }
 }
 }
 
 //Input a string:520
-//³o¬O¥Ñ¦r¦ê 520 ©Ò¤Þ°_ªº¨Ò¥~
+//é€™æ˜¯ç”±å­—ä¸² 520 æ‰€å¼•èµ·çš„ä¾‹å¤–
