@@ -5,7 +5,7 @@ public static void main(String args[]){
 
 for(int i=0;i<10;i++){
 if(den.length<i || den[i]==0){
- System.out.println("µ{¦¡°õ¦æ¦³»~");
+ System.out.println("ç¨‹å¼åŸ·è¡Œæœ‰èª¤");
  break;
 }
 else
@@ -15,4 +15,4 @@ else
 }
 
 //ans=1
-//µ{¦¡°õ¦æ¦³»~
+//ç¨‹å¼åŸ·è¡Œæœ‰èª¤
