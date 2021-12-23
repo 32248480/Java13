@@ -7,13 +7,13 @@ for(int i=0;i<10;i++)
  System.out.println("ans="+num/den[i]);
 }
 catch(ArithmeticException e){
- System.out.println("°£¼Æ¬° 0");
+ System.out.println("é™¤æ•¸ç‚º 0");
 }
 catch(ArrayIndexOutOfBoundsException e){
- System.out.println("°}¦Cµù¼Ð¶W¥X¤F½d³ò");
+ System.out.println("é™£åˆ—è¨»æ¨™è¶…å‡ºäº†ç¯„åœ");
 }
 }
 }
 
 //ans=1
-//°£¼Æ¬° 0
+//é™¤æ•¸ç‚º 0
