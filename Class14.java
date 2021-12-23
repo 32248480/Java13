@@ -10,7 +10,7 @@ public static void main(String args[]){
  Scanner scn=new Scanner(System.in);
  int num;
 try{
-System.out.print("½Ð¿é¤J¤@­Ó¾ã¼Æ:");
+System.out.print("è«‹è¼¸å…¥ä¸€å€‹æ•´æ•¸:");
  num=scn.nextInt();
 if(num<10)
  throw new IntegerTooSmall();
@@ -20,16 +20,16 @@ else
  System.out.println("num="+num);
 }
 catch(IntegerTooSmall e){
- System.out.println("±z¿é¤Jªº¾ã¼Æ­È¤Ó¤p");
+ System.out.println("æ‚¨è¼¸å…¥çš„æ•´æ•¸å€¼å¤ªå°");
 }
 catch(IntegerTooLarge e){
- System.out.println("±z¿é¤Jªº¾ã¼Æ­È¤Ó¤j");
+ System.out.println("æ‚¨è¼¸å…¥çš„æ•´æ•¸å€¼å¤ªå¤§");
 }
 catch(InputMismatchException e){
- System.out.println("±z¿é¤Jªº¤£¬O¾ã¼Æ");
+ System.out.println("æ‚¨è¼¸å…¥çš„ä¸æ˜¯æ•´æ•¸");
 }
 }
 }
 
-//½Ð¿é¤J¤@­Ó¾ã¼Æ:87
-//±z¿é¤Jªº¾ã¼Æ­È¤Ó¤j
+//è«‹è¼¸å…¥ä¸€å€‹æ•´æ•¸:87
+//æ‚¨è¼¸å…¥çš„æ•´æ•¸å€¼å¤ªå¤§
